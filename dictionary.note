@@ -1,0 +1,82 @@
+using System;
+using System.Collections.Generic;
+
+namespace dicitionaries
+{
+    class Program
+    {
+
+
+        static void PrintDictionary(Dictionary<string, int> dict){
+            foreach(KeyValuePair<string, int> kvp in dict){
+                Console.WriteLine($"key: {kvp.Key}, value: {kvp.Value}");
+            }
+        }
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+
+            // This is the data structure called a dictionary which holds key value pairs. Notice the 2 different data types.
+
+            Dictionary<string, int> languageWithScore = new Dictionary<string, int>(){
+
+                {"English", 4},
+                {"Spanish", 0},
+                {"C#", 4}
+            };
+
+            //We ae just writing to the console.
+
+        PrintDictionary(languageWithScore);
+        languageWithScore.Add("Javascript", 4);
+        PrintDictionary(languageWithScore);
+
+
+        Console.WriteLine("-------------------");
+
+            //This is how we change values inside the dictionary.
+        languageWithScore["Spanish"] = 1;
+            // Here we added to the dictionary like this.
+        languageWithScore["French"] = 5;
+
+
+       PrintDictionary(languageWithScore);
+
+        List<Dictionary<string, int>> langScoreList = new List<Dictionary<string, int>>();
+        langScoreList.Add(languageWithScore);
+
+        Dictionary<string, int> languageWithScore2 = new Dictionary<string, int>(){
+            {"English", 5}
+        };
+
+        langScoreList.Add(languageWithScore2);
+
+        if(languageWithScore.ContainsValue(1)){
+            Console.WriteLine("YAY");
+        }else{
+            Console.WriteLine("Boo!");
+        }
+
+        Dictionary<string, Dictionary<string, int>> people =
+            new Dictionary<string, Dictionary<string, int>>(){
+                {
+                    "Hunter",
+                    new Dictionary<string, int> (){{"French", 5}}
+                },
+                {
+                    "Jordan",
+                    new Dictionary<string, int>(){{"Spanish", 5}, {"English", 4}}
+                }
+            };
+
+            foreach(Dictionary<string, int> lang in langScoreList){
+                Console.WriteLine("------------------");
+                PrintDictionary(lang);
+            }
+
+
+        }
+
+
+    }
+}

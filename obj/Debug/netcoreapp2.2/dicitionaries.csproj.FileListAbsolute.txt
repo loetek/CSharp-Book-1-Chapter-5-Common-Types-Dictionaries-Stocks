@@ -1,0 +1,11 @@
+/Users/jdwheeler/workspace/C#/exercises/dicitionaries/obj/Debug/netcoreapp2.2/dicitionaries.csprojAssemblyReference.cache
+/Users/jdwheeler/workspace/C#/exercises/dicitionaries/obj/Debug/netcoreapp2.2/dicitionaries.csproj.CoreCompileInputs.cache
+/Users/jdwheeler/workspace/C#/exercises/dicitionaries/obj/Debug/netcoreapp2.2/dicitionaries.AssemblyInfoInputs.cache
+/Users/jdwheeler/workspace/C#/exercises/dicitionaries/obj/Debug/netcoreapp2.2/dicitionaries.AssemblyInfo.cs
+/Users/jdwheeler/workspace/C#/exercises/dicitionaries/bin/Debug/netcoreapp2.2/dicitionaries.deps.json
+/Users/jdwheeler/workspace/C#/exercises/dicitionaries/bin/Debug/netcoreapp2.2/dicitionaries.runtimeconfig.json
+/Users/jdwheeler/workspace/C#/exercises/dicitionaries/bin/Debug/netcoreapp2.2/dicitionaries.runtimeconfig.dev.json
+/Users/jdwheeler/workspace/C#/exercises/dicitionaries/bin/Debug/netcoreapp2.2/dicitionaries.dll
+/Users/jdwheeler/workspace/C#/exercises/dicitionaries/bin/Debug/netcoreapp2.2/dicitionaries.pdb
+/Users/jdwheeler/workspace/C#/exercises/dicitionaries/obj/Debug/netcoreapp2.2/dicitionaries.dll
+/Users/jdwheeler/workspace/C#/exercises/dicitionaries/obj/Debug/netcoreapp2.2/dicitionaries.pdb
